@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpUpServer", "UpUpServer\UpUpServer.csproj", "{D122C609-5EB0-425A-AD35-D0CA0594676A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientTest", "ClientTest\ClientTest.csproj", "{0B766ECF-3361-4881-A86C-D7A7FA3F8464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerTest", "ServerTest\ServerTest.csproj", "{A20F5A28-EECD-467F-B5B7-76E97B70318A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D122C609-5EB0-425A-AD35-D0CA0594676A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D122C609-5EB0-425A-AD35-D0CA0594676A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D122C609-5EB0-425A-AD35-D0CA0594676A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D122C609-5EB0-425A-AD35-D0CA0594676A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B766ECF-3361-4881-A86C-D7A7FA3F8464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B766ECF-3361-4881-A86C-D7A7FA3F8464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B766ECF-3361-4881-A86C-D7A7FA3F8464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B766ECF-3361-4881-A86C-D7A7FA3F8464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A20F5A28-EECD-467F-B5B7-76E97B70318A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20F5A28-EECD-467F-B5B7-76E97B70318A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20F5A28-EECD-467F-B5B7-76E97B70318A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20F5A28-EECD-467F-B5B7-76E97B70318A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

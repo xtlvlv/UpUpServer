@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MongoDB.Driver" Version="2.21.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="NLog" Version="5.2.3" />
+      <PackageReference Include="NLog.Extensions.Logging" Version="5.3.3" />
+      <PackageReference Include="ServiceStack.Redis" Version="8.0.0" />
+      <PackageReference Include="System.IO.Pipelines" Version="8.0.0-preview.7.23375.6" />
+      
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="Conf\ServerConfig.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Conf\Nlog.xml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Conf\nlog.config" />
+      <Content Include="Conf\nlog.config">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+</Project>

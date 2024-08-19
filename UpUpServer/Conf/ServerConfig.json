@@ -1,0 +1,9 @@
+{
+    "ip": "0.0.0.0",
+    "port": 9999,
+    "workPoolSize": 4,
+    "NLogConfigPath": "Conf/nlog.config",
+    "MongoDbUrl": "mongodb://localhost:27017",
+    "MongoDbName": "GameTest",
+    "RedisDbUrl": "127.0.0.1:6379?password=123456"
+}
